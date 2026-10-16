@@ -50,3 +50,44 @@
 .boton-empezar:hover {
     background-color: #e65c00;
 }
+
+#personas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+#personas img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+#personas div {
+    text-align: center;
+}
+
+#personas div h4 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+#personas div p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.boton-saber-mas {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
